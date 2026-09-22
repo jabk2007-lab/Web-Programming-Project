@@ -75,7 +75,14 @@ nav a{
     background-color: white;
     padding: 25px;
     border-radius: 10;
+    color: black; 
     box-shadow: 5px 10px black;
+    
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
 }
 
 .card h2{
