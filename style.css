@@ -66,7 +66,13 @@ nav a{
     font-weight: bold;
     animation: bounce is ease;
 }
+#star-container {
+    display: flex;
+}
 
+.active {
+    color: yellow;
+}
 
 
 .status{
