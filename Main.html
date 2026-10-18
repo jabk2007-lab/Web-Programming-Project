@@ -7,11 +7,11 @@
     <title>Web Programing Project</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    
 </head>
 
 <body>
-
+    <script src="script.js" defer></script>
     <header>
         <h1>Dahlonega's Restaurants</h1>
 
@@ -34,9 +34,16 @@
         <!--Template for Restaurants-->
         <div class="card">
             <img src="https://media-cdn.tripadvisor.com/media/photo-o/02/ee/ca/6c/a-street-view-of-shenanigans.jpg">
-            <p>
-                Rating: X/5 Stars
-            </p>
+            <section>
+                Total Rating <span id="result">0/5</span>
+                <div id="star-container">  
+                    <div id="star">&#x2605</div>
+                    <div id="star">&#x2605</div>
+                    <div id="star">&#x2605</div>
+                    <div id="star">&#x2605</div>
+                    <div id="star">&#x2605</div>
+                </div>
+            </section>
             <a href="https://www.theshenaniganspub.com/">
                 Shenanigans Pub
             </a>
