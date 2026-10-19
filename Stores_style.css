@@ -38,9 +38,11 @@ h1{
 }
 
 nav a{
-    color: white;
+    color: rgb(50, 36, 255);
     text-decoration: none;
     margin-right: 20px;
+    font-size: larger;
+    font-weight: bold;
 }
 
 
