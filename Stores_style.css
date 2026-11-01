@@ -110,10 +110,13 @@ nav a{
     align-items: center;
 }
 
-#star-container{
+#star-container {
     display: flex;
     justify-content: center;
-    
+}
+
+.active {
+    color: rgb(57, 57, 255);
 }
 
 ul {
