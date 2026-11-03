@@ -1,6 +1,15 @@
 *{
     box-sizing: border-box;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
 body{
     margin: 0;
     font: arial, sans serif;
