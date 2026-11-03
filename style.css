@@ -18,7 +18,7 @@ header{
 }
 
 footer {
-   background-color: khaki;
+   background-color: rgb(163, 191, 250);
    color: black;
    text-align: center;
    font-size: 15px;
@@ -31,7 +31,6 @@ footer {
    bottom: 0;
    width: 100%;
    z-index: 9;
-   min-height: 100dvh;
 }
 
 h1{
