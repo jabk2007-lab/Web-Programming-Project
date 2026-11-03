@@ -64,15 +64,17 @@ nav a{
     text-align: center;
     justify-items: center;
 }
-
-.card{
+.card {
     background-color: rgba(206, 206, 255);
     padding: 25px;
-    border-radius: 10;
+    border-radius: 16px;
     color: black; 
     box-shadow: 5px 10px black;
-    border-radius: 12%;
-    justify-items: center;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .card p{
     background-color: rgba(174, 174, 248, 0.3);
