@@ -67,18 +67,14 @@ nav a{
     justify-content: center;
 }
 
-.card {
-    background-color: rgb(206, 206, 255);
+.card{
+    background-color: rgba(206, 206, 255);
     padding: 25px;
-    border-radius: 16px;
-    color: black;
+    border-radius: 10;
+    color: black; 
     box-shadow: 5px 10px black;
-    width: 100%;
-    min-height: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    border-radius: 12%;
+    
 }
 
 .card p{
