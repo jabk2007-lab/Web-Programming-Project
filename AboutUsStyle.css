@@ -68,7 +68,7 @@ nav a{
     max-width: 900px;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
     justify-items: center;
     align-items: stretch;
