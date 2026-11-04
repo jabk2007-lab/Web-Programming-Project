@@ -58,15 +58,14 @@ nav a{
 }
 
 
-.cards{
-    max-width: 900px;
-    margin: 30px auto;
+.cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    text-align: center;
+    grid-template-columns: 350px 350px;
+    gap: 25px;
+    width: 725px;
+    margin: 20px auto;
+    justify-content: center;
 }
-
 
 .card{
     background-color: rgba(206, 206, 255);
