@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     margin: 0;
     font: arial, sans serif;
@@ -25,7 +24,7 @@ footer {
    text-align: center;
    font-size: 15px;
    font-family: Arial, Helvetica, sans-serif;
-   padding: 35px;
+   padding: 15px;
    display: block;
    height: auto;
    position: fixed;
@@ -33,6 +32,8 @@ footer {
    bottom: 0;
    width: 100%;
    z-index: 9;
+   border-radius: 15% 15% 0 0;
+   box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, .4);
 }
 
 h1{
@@ -48,20 +49,19 @@ nav a{
 
 
 .cards {
+    max-width: 900px;
+    margin: 30px auto;
     display: grid;
-    grid-template-columns: 350px 350px;
-    gap: 25px;
-    width: 725px;
-    margin: 20px auto;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
 }
 
 .card{
     background-color: rgba(206, 206, 255);
     padding: 25px;
-    border-radius: 10;
     color: black; 
-    box-shadow: 5px 10px black;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
     border-radius: 12%;
     
 }
@@ -100,21 +100,14 @@ nav a{
     text-align: center;
     padding: 8px 16px;
 }
+.card_intro{
+    background-color: rgba(206, 206, 255);
+    padding: 25px;
+    color: black; 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 12% 12%;
 
-.help{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    height: 10px;
-    width: 50px;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 #star-container {
     display: flex;
     justify-content: center;
@@ -139,10 +132,4 @@ table{
 
 margin-left: auto;
 margin-right: auto;
-}
-
-
-
-button {
-    transition: transform 0.2s, box-shadow 0.2s;
 }
