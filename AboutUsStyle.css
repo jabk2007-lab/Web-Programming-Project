@@ -49,10 +49,6 @@ footer {
 h1{
     margin: 0;
 }
-.intro {
-    max-width: 600px;
-    margin: 20px auto;
-}
 nav a{
     color: rgb(50, 36, 255);
     text-decoration: none;
