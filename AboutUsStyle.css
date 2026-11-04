@@ -66,8 +66,7 @@ nav a{
     display: grid;
     grid-template-columns: 350px 350px;
     gap: 25px;
-    width: fit-content;
-    max-width: 100%;
+    width: 725px;
     margin: 20px auto;
     justify-content: center;
 }
