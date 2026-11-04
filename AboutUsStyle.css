@@ -10,7 +10,11 @@ main {
     padding: 30px 20px;
     padding-bottom: 160px;
 }
-
+main h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 body{
     margin: 0;
     font: arial, sans serif;
