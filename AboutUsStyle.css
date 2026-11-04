@@ -7,7 +7,8 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
+    padding-bottom: 160px;
 }
 
 body{
@@ -45,7 +46,10 @@ footer {
 h1{
     margin: 0;
 }
-
+.intro {
+    max-width: 600px;
+    margin: 20px auto;
+}
 nav a{
     color: rgb(50, 36, 255);
     text-decoration: none;
@@ -55,27 +59,30 @@ nav a{
 }
 
 
-.cards{
+.cards {
+    width: 100%;
     max-width: 900px;
-    margin: 30px auto;
+    margin: 20px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
     justify-items: center;
+    align-items: stretch;
 }
 .card {
     background-color: rgba(206, 206, 255);
     padding: 25px;
     border-radius: 16px;
-    color: black; 
+    color: black;
     box-shadow: 5px 10px black;
     width: 100%;
     max-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
+
 .card p{
     background-color: rgba(174, 174, 248, 0.3);
     color: rgb(0, 4, 255);
