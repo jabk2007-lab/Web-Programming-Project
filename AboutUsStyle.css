@@ -74,7 +74,7 @@ nav a{
 }
 
 .card {
-    background-color: rgba(206, 206, 255);
+    background-color: rgb(206, 206, 255);
     padding: 25px;
     border-radius: 16px;
     color: black;
