@@ -64,13 +64,15 @@ nav a{
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
     justify-items: center;
+    align-items: stretch;
 }
+
 .card {
     background-color: rgba(206, 206, 255);
     padding: 25px;
