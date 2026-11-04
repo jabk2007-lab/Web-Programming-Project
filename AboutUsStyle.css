@@ -109,7 +109,10 @@ nav a{
 
     
 }
-
+.card h3 {
+    margin-top: 0;
+    text-align: center;
+}
 .card a{
     background-color: rgba(174, 174, 248, 0.3);
     color: rgb(0, 4, 255);
