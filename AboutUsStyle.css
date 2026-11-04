@@ -63,14 +63,13 @@ nav a{
 
 
 .cards {
-    width: 100%;
-    max-width: 900px;
-    margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
     justify-items: center;
-    align-items: stretch;
 }
 .card {
     background-color: rgba(206, 206, 255);
