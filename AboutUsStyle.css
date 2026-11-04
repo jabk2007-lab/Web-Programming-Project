@@ -146,13 +146,16 @@ nav a{
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 ul li {
-  display: inline-block; /* Forces items to stay on the same line */
-  margin-right: 15px;    /* Adds spacing between items */
+    display: block;
+    margin: 10px 0;
+    text-align: center;
 }
 
 table{
